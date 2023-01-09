@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%
+}
+
+header{
+    display: flex;
+    background-color: #1f1f1f;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    margin: ;
+}
+
+header > img {
+    width: 7rem;
+    height: 4rem;
+}
+#imdbpro {
+    height: 2rem;
+    margin-left: 1rem;
+    width: 6rem;
+}
+header > button{
+    width: 11rem;
+    background-color: #1f1f1f;
+    border: none;
+    margin-left: 1rem;
+    font-weight: bold;
+
+}
+button > hr {
+    width: 2rem;
+    border: 1px solid white;
+    margin-bottom: 0.3rem;
+    position: relative;
+    top: 0.8rem;
+    margin-left: 2rem;
+}
+button > span {
+    color: white;
+    position: relative;
+    bottom: 0.8rem;
+    margin-left: 3rem;
+    font-weight: bold;
+}
+#headerbarre{
+    height: 4rem;
+    color: grey;
+}
+#search{
+    background-color: white;
+    width: 2rem;
+    height: 3rem;
+    position: relative;
+    right: 4rem;
+}
+header > button:hover {
+    background-color: #2d2d2d;
+    cursor: pointer;
+    border-radius: 3px;
+}
+header > input {
+    border-radius: 5px;
+    border: none;
+    height: 3.2rem;
+    width: 65rem;
+    padding-left: 5rem;
+}
+header > input:focus{
+    border: 1px solid yellow;
+}
+.headerconnect{
+    color: white;
+   height: 4rem;
+}
+#containerpub{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#container1{
+    background-color: #1f1f1f;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#container1 > div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 5rem;
+    width: 110rem;
+}
+#container1 > div > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+#container1 >div > a:hover {
+    text-decoration-line: underline;
+}
+#container1 > div > button {
+    height: 2rem;
+    background-color: rgba(45, 45, 45, 0);
+    color: white;
+    border: none;
+    margin-right: 1rem;
+}
+
+#container1 > div > button:hover{
+    cursor: pointer;
+    background-color: #2d2d2d;
+}
+#otherinformation{
+    border-right: 1px solid grey;
+    font-weight: bold;
+}
+
