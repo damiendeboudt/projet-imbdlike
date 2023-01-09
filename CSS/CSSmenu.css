@@ -18,6 +18,9 @@
     text-decoration: none;
     font-size: 1.5rem;
 }
+#menu > div > ul > li > a:hover{
+    text-decoration-line: underline;
+}
 #center{
     margin-left: 10rem;
     margin-right: 10rem;
@@ -62,7 +65,7 @@
     background-color: #F6C700;
     border: none;
     position:relative;
-    left: 150px;
+    left: 270px;
     top: 20px;
     font-size: 2rem;
 }
@@ -72,10 +75,13 @@
 }
 #menu > #left > h2 > i {
     color: #e5c102;
+    margin-right: 1rem;
 }
 #menu > #center > h2 > i {
     color: #e5c102;
+    margin-right: 1rem;
 }
 #menu > #right > h2 > i {
     color: #e5c102;
+    margin-right: 1rem;
 }
